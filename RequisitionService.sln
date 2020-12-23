@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{07CAD724-05B2-4168-AB88-20C96A3E1DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{979138B8-2406-4393-86A1-C2885AF3F4AA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{28AA0173-D70F-4BEE-97D8-770431979D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.BusinessObjects", "RequisitionBusinessObjects\GEP.Cumulus.P2P.Req.BusinessObjects.csproj", "{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.DataAccessObjects", "RequisitionDataAccessObjects\GEP.Cumulus.P2P.Req.DataAccessObjects.csproj", "{3C5D5395-C23D-41FB-BC05-3E4DD0205554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.RestService", "ReqRestService\GEP.Cumulus.P2P.Req.RestService.csproj", "{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.ServiceContracts", "ReqServiceContracts\GEP.Cumulus.P2P.Req.ServiceContracts.csproj", "{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.Service", "RequisitionService\GEP.Cumulus.P2P.Req.Service.csproj", "{FBD29269-2843-47DC-B24C-4EB9882F7ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{DEE0E6B7-37BA-428B-8C2B-B290E2221771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisitionMSTest", "RequisitionMSTest\RequisitionMSTest.csproj", "{3B89B084-0106-4D23-9800-EFF1E953BF5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{6113CE58-8DE8-4244-9A04-80ED3DA8DD65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.SMART.Requisition.WebAPI", "..\WebAPI\GEP.SMART.Requisition.WebAPI\GEP.SMART.Requisition.WebAPI.csproj", "{3FFAB794-E302-49AC-96CA-4535C001D98C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFAB794-E302-49AC-96CA-4535C001D98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFAB794-E302-49AC-96CA-4535C001D98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFAB794-E302-49AC-96CA-4535C001D98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFAB794-E302-49AC-96CA-4535C001D98C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF} = {07CAD724-05B2-4168-AB88-20C96A3E1DED}
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554} = {07CAD724-05B2-4168-AB88-20C96A3E1DED}
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01} = {28AA0173-D70F-4BEE-97D8-770431979D0A}
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9} = {28AA0173-D70F-4BEE-97D8-770431979D0A}
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3} = {28AA0173-D70F-4BEE-97D8-770431979D0A}
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F} = {DEE0E6B7-37BA-428B-8C2B-B290E2221771}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.NetCore.6.1.14\lib\NET45;packages\EnterpriseLibrary.Data.NetCore.6.1.9\lib\NET45
+		SolutionGuid = {30E99FC8-C3F1-4F8F-9A75-E087648CAF00}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Validation.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35;packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\DesignTime
+	EndGlobalSection
+EndGlobal

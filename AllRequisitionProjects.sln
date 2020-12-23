@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReqBusinessLayer", "ReqBusinessLayer", "{07CAD724-05B2-4168-AB88-20C96A3E1DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{979138B8-2406-4393-86A1-C2885AF3F4AA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{28AA0173-D70F-4BEE-97D8-770431979D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.BusinessObjects", "RequisitionBusinessObjects\GEP.Cumulus.P2P.Req.BusinessObjects.csproj", "{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.DataAccessObjects", "RequisitionDataAccessObjects\GEP.Cumulus.P2P.Req.DataAccessObjects.csproj", "{3C5D5395-C23D-41FB-BC05-3E4DD0205554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.RestService", "ReqRestService\GEP.Cumulus.P2P.Req.RestService.csproj", "{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.ServiceContracts", "ReqServiceContracts\GEP.Cumulus.P2P.Req.ServiceContracts.csproj", "{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Req.Service", "RequisitionService\GEP.Cumulus.P2P.Req.Service.csproj", "{FBD29269-2843-47DC-B24C-4EB9882F7ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{DEE0E6B7-37BA-428B-8C2B-B290E2221771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisitionMSTest", "RequisitionMSTest\RequisitionMSTest.csproj", "{3B89B084-0106-4D23-9800-EFF1E953BF5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{42CDC4BC-8AE3-4F7C-BF7F-1875B74D5F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.SMART.Requisition.Web", "..\UI\SMART.Web\GEP.SMART.Requisition.Web.csproj", "{654041D3-0681-47E3-AFBF-994EE7B9C579}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P2P", "P2P", "{7E69C741-FCD6-433F-90CF-B4B0F5F11514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.BusinessEntities", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\BusinessLayer\BusinessEntities\GEP.Cumulus.P2P.BusinessEntities.csproj", "{88DA458A-114D-4078-A5BB-C1387D4E8775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.BusinessObjects", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\BusinessLayer\BusinessObjects\GEP.Cumulus.P2P.BusinessObjects.csproj", "{B8E4B0A7-68AF-4820-9BD1-FF9BB145848A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.DataAccessObjects", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\BusinessLayer\DataAccessObjects\GEP.Cumulus.P2P.DataAccessObjects.csproj", "{502F4B97-8A89-417F-A4DD-26C1D852BF6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{12131E42-D9AC-4680-B05B-9CF4B253C481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.RestService", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\Services\RestService\GEP.Cumulus.P2P.RestService.csproj", "{C17355CE-0BCE-4DD1-B394-7B64CAAE947A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.Service", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\Services\Service\GEP.Cumulus.P2P.Service.csproj", "{7BF89F99-A4E8-4505-9DA9-425C27C714CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.RestServiceContracts", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\Services\RestServiceContracts\GEP.Cumulus.P2P.RestServiceContracts.csproj", "{DD286A60-7B83-4643-BDFD-9696008767D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.ServiceContracts", "..\..\..\GEP.Cumulus.P2P\GEP P2P\GEP.Cumulus.P2P\Services\ServiceContracts\GEP.Cumulus.P2P.ServiceContracts.csproj", "{88E058B3-EFBE-4BBC-86C3-03419D6FC5C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{94A5025F-C7A1-489C-8620-66AFFBC0AF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.PO.BusinessObjects", "..\..\..\GEP-Order-2.0\GEP-Order-2.0\OrderService\BusinessLayer\POBusinessObjects\GEP.Cumulus.P2P.PO.BusinessObjects.csproj", "{81204979-0299-42FE-9DE2-F159A1A910CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.PO.DataAccessObjects", "..\..\..\GEP-Order-2.0\GEP-Order-2.0\OrderService\BusinessLayer\PODataAccessObjects\GEP.Cumulus.P2P.PO.DataAccessObjects.csproj", "{35D1D611-2CE7-48CC-8F1B-7450EE17003A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9CE5B389-08D2-4246-A253-3C15B355451A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.PO.RestService", "..\..\..\GEP-Order-2.0\GEP-Order-2.0\OrderService\Services\RestService\GEP.Cumulus.P2P.PO.RestService.csproj", "{4FE510A9-F7CC-46D7-93B1-52AF394BD1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.PO.RestServiceContracts", "..\..\..\GEP-Order-2.0\GEP-Order-2.0\OrderService\Services\RestServiceContracts\GEP.Cumulus.P2P.PO.RestServiceContracts.csproj", "{825F59E1-3DBA-4E99-A24B-22EE6A919266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.PO.Service", "..\..\..\GEP-Order-2.0\GEP-Order-2.0\OrderService\Services\Service\GEP.Cumulus.P2P.PO.Service.csproj", "{D333D194-9421-4099-ACAC-51C5536C7E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEP.Cumulus.P2P.PO.ServiceContracts", "..\..\..\GEP-Order-2.0\GEP-Order-2.0\OrderService\Services\ServiceContracts\GEP.Cumulus.P2P.PO.ServiceContracts.csproj", "{EBDDE689-869A-4A72-94A2-F1B7D106C3DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654041D3-0681-47E3-AFBF-994EE7B9C579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654041D3-0681-47E3-AFBF-994EE7B9C579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DA458A-114D-4078-A5BB-C1387D4E8775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DA458A-114D-4078-A5BB-C1387D4E8775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E4B0A7-68AF-4820-9BD1-FF9BB145848A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E4B0A7-68AF-4820-9BD1-FF9BB145848A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502F4B97-8A89-417F-A4DD-26C1D852BF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502F4B97-8A89-417F-A4DD-26C1D852BF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17355CE-0BCE-4DD1-B394-7B64CAAE947A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17355CE-0BCE-4DD1-B394-7B64CAAE947A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF89F99-A4E8-4505-9DA9-425C27C714CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF89F99-A4E8-4505-9DA9-425C27C714CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD286A60-7B83-4643-BDFD-9696008767D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD286A60-7B83-4643-BDFD-9696008767D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E058B3-EFBE-4BBC-86C3-03419D6FC5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E058B3-EFBE-4BBC-86C3-03419D6FC5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81204979-0299-42FE-9DE2-F159A1A910CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81204979-0299-42FE-9DE2-F159A1A910CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D1D611-2CE7-48CC-8F1B-7450EE17003A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D1D611-2CE7-48CC-8F1B-7450EE17003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE510A9-F7CC-46D7-93B1-52AF394BD1AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE510A9-F7CC-46D7-93B1-52AF394BD1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{825F59E1-3DBA-4E99-A24B-22EE6A919266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{825F59E1-3DBA-4E99-A24B-22EE6A919266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D333D194-9421-4099-ACAC-51C5536C7E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D333D194-9421-4099-ACAC-51C5536C7E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDDE689-869A-4A72-94A2-F1B7D106C3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDDE689-869A-4A72-94A2-F1B7D106C3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D97D1F2-7BA9-4C3A-B437-ED91E4B3D8EF} = {07CAD724-05B2-4168-AB88-20C96A3E1DED}
+		{3C5D5395-C23D-41FB-BC05-3E4DD0205554} = {07CAD724-05B2-4168-AB88-20C96A3E1DED}
+		{A2B690D6-214F-4AA1-AC4D-D39A24A6FA01} = {28AA0173-D70F-4BEE-97D8-770431979D0A}
+		{7CFF8E85-5A37-407A-BF7B-31331F6DEEE9} = {28AA0173-D70F-4BEE-97D8-770431979D0A}
+		{FBD29269-2843-47DC-B24C-4EB9882F7ED3} = {28AA0173-D70F-4BEE-97D8-770431979D0A}
+		{3B89B084-0106-4D23-9800-EFF1E953BF5F} = {DEE0E6B7-37BA-428B-8C2B-B290E2221771}
+		{654041D3-0681-47E3-AFBF-994EE7B9C579} = {42CDC4BC-8AE3-4F7C-BF7F-1875B74D5F5A}
+		{88DA458A-114D-4078-A5BB-C1387D4E8775} = {7E69C741-FCD6-433F-90CF-B4B0F5F11514}
+		{B8E4B0A7-68AF-4820-9BD1-FF9BB145848A} = {7E69C741-FCD6-433F-90CF-B4B0F5F11514}
+		{502F4B97-8A89-417F-A4DD-26C1D852BF6F} = {7E69C741-FCD6-433F-90CF-B4B0F5F11514}
+		{12131E42-D9AC-4680-B05B-9CF4B253C481} = {7E69C741-FCD6-433F-90CF-B4B0F5F11514}
+		{C17355CE-0BCE-4DD1-B394-7B64CAAE947A} = {12131E42-D9AC-4680-B05B-9CF4B253C481}
+		{7BF89F99-A4E8-4505-9DA9-425C27C714CC} = {12131E42-D9AC-4680-B05B-9CF4B253C481}
+		{DD286A60-7B83-4643-BDFD-9696008767D9} = {12131E42-D9AC-4680-B05B-9CF4B253C481}
+		{88E058B3-EFBE-4BBC-86C3-03419D6FC5C4} = {12131E42-D9AC-4680-B05B-9CF4B253C481}
+		{81204979-0299-42FE-9DE2-F159A1A910CE} = {94A5025F-C7A1-489C-8620-66AFFBC0AF4E}
+		{35D1D611-2CE7-48CC-8F1B-7450EE17003A} = {94A5025F-C7A1-489C-8620-66AFFBC0AF4E}
+		{9CE5B389-08D2-4246-A253-3C15B355451A} = {94A5025F-C7A1-489C-8620-66AFFBC0AF4E}
+		{4FE510A9-F7CC-46D7-93B1-52AF394BD1AE} = {9CE5B389-08D2-4246-A253-3C15B355451A}
+		{825F59E1-3DBA-4E99-A24B-22EE6A919266} = {9CE5B389-08D2-4246-A253-3C15B355451A}
+		{D333D194-9421-4099-ACAC-51C5536C7E84} = {9CE5B389-08D2-4246-A253-3C15B355451A}
+		{EBDDE689-869A-4A72-94A2-F1B7D106C3DB} = {9CE5B389-08D2-4246-A253-3C15B355451A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Validation.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Data.5.0.505.0\lib\NET35;packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\lib\NET4;packages\EnterpriseLibrary.WindowsAzure.TransientFaultHandling.5.1.1212.0\DesignTime
+		SolutionGuid = {30E99FC8-C3F1-4F8F-9A75-E087648CAF00}
+	EndGlobalSection
+EndGlobal
